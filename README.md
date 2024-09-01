@@ -22,18 +22,25 @@ Before running the bot, ensure you have the following:
 
 1. **Clone the Repository**:
 
-   ```bash
+ ```bash
    git clone https://github.com/aramabal/AAVEv3TelegramBot.git
-   cd AAVEv3TelegramBot
+   cd AAVEv3TelegramBot   
+```
+2. **Install Required Libraries**
 
-2. **Create a `.env` File**
+To install the necessary libraries listed in the `requirements.txt` file, run the following command:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Create a `.env` File**
 
    Create a `.env` file in the root directory of your project and add the following lines, replacing the placeholders with your actual values:
 
-   ```env
+ ```env
    TELEGRAM_TOKEN=your_telegram_bot_token
    WEB3_PROVIDER_URL=https://your.ethereum.node.url
-
+```
 ## How to Obtain `WEB3_PROVIDER_URL`
 
 To interact with the Ethereum blockchain, you need a Web3 provider URL. This URL connects your application to an Ethereum node, which allows you to query and send transactions to the blockchain. Here’s how you can obtain a `WEB3_PROVIDER_URL`:
