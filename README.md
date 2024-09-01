@@ -23,5 +23,5 @@ Before running the bot, ensure you have the following:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/aramabal/AAVEv3TelegramBot.git
+   cd AAVEv3TelegramBot
